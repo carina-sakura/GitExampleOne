@@ -21,5 +21,10 @@ namespace DemoProject
         {
             lblHelloWorld.Text = "Hello World!";
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
