@@ -22,6 +22,11 @@ namespace DemoProject
             lblHelloWorld.Text = "Hello World!";
         }
 
+        private void ChangeButton_Click(object sender, EventArgs e)
+        {
+            btnChangeColour.BackColor = Color.Red;
+        }
+
         private void MainForm_Load(object sender, EventArgs e)
         {
 

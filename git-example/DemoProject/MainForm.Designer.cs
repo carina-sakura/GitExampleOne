@@ -31,6 +31,7 @@ namespace DemoProject
         {
             this.btnClickThis = new System.Windows.Forms.Button();
             this.lblHelloWorld = new System.Windows.Forms.Label();
+            this.btnChangeColour = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnClickThis
@@ -40,7 +41,7 @@ namespace DemoProject
             this.btnClickThis.Name = "btnClickThis";
             this.btnClickThis.Size = new System.Drawing.Size(81, 25);
             this.btnClickThis.TabIndex = 0;
-            this.btnClickThis.Text = "Click this";
+            this.btnClickThis.Text = "Hello";
             this.btnClickThis.UseVisualStyleBackColor = false;
             this.btnClickThis.Click += new System.EventHandler(this.btnClickThis_Click);
             // 
@@ -52,11 +53,22 @@ namespace DemoProject
             this.lblHelloWorld.Size = new System.Drawing.Size(0, 13);
             this.lblHelloWorld.TabIndex = 1;
             // 
+            // btnChangeColour
+            // 
+            this.btnChangeColour.Location = new System.Drawing.Point(210, 60);
+            this.btnChangeColour.Name = "btnChangeColour";
+            this.btnChangeColour.Size = new System.Drawing.Size(94, 25);
+            this.btnChangeColour.TabIndex = 2;
+            this.btnChangeColour.Text = "ChangeColour";
+            this.btnChangeColour.UseVisualStyleBackColor = true;
+            this.btnChangeColour.Click += new System.EventHandler(this.ChangeButton_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(325, 145);
+            this.Controls.Add(this.btnChangeColour);
             this.Controls.Add(this.lblHelloWorld);
             this.Controls.Add(this.btnClickThis);
             this.Name = "MainForm";
@@ -64,13 +76,12 @@ namespace DemoProject
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
-
         private System.Windows.Forms.Button btnClickThis;
         private System.Windows.Forms.Label lblHelloWorld;
+        private System.Windows.Forms.Button btnChangeColour;
     }
 }
 
