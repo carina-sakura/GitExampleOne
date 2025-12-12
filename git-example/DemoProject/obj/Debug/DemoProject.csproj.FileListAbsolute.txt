@@ -18,3 +18,13 @@ C:\Users\moser\source\repos\git-example\DemoProject\obj\Debug\DemoProject.csproj
 C:\Users\moser\source\repos\git-example\DemoProject\obj\Debug\DemoProject.csproj.CoreCompileInputs.cache
 C:\Users\moser\source\repos\git-example\DemoProject\obj\Debug\DemoProject.exe
 C:\Users\moser\source\repos\git-example\DemoProject\obj\Debug\DemoProject.pdb
+C:\Users\tobik\source\repos\GitExampleOne\git-example\DemoProject\bin\Debug\DemoProject.exe.config
+C:\Users\tobik\source\repos\GitExampleOne\git-example\DemoProject\bin\Debug\DemoProject.exe
+C:\Users\tobik\source\repos\GitExampleOne\git-example\DemoProject\bin\Debug\DemoProject.pdb
+C:\Users\tobik\source\repos\GitExampleOne\git-example\DemoProject\obj\Debug\DemoProject.csproj.AssemblyReference.cache
+C:\Users\tobik\source\repos\GitExampleOne\git-example\DemoProject\obj\Debug\DemoProject.MainForm.resources
+C:\Users\tobik\source\repos\GitExampleOne\git-example\DemoProject\obj\Debug\DemoProject.Properties.Resources.resources
+C:\Users\tobik\source\repos\GitExampleOne\git-example\DemoProject\obj\Debug\DemoProject.csproj.GenerateResource.cache
+C:\Users\tobik\source\repos\GitExampleOne\git-example\DemoProject\obj\Debug\DemoProject.csproj.CoreCompileInputs.cache
+C:\Users\tobik\source\repos\GitExampleOne\git-example\DemoProject\obj\Debug\DemoProject.exe
+C:\Users\tobik\source\repos\GitExampleOne\git-example\DemoProject\obj\Debug\DemoProject.pdb

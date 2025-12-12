@@ -31,7 +31,7 @@ namespace DemoProject
         {
 			this.btnClickThis = new System.Windows.Forms.Button();
 			this.lblHelloWorld = new System.Windows.Forms.Label();
-			this.button2 = new System.Windows.Forms.Button();
+			this.ShutdownButton = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// btnClickThis
@@ -53,22 +53,22 @@ namespace DemoProject
 			this.lblHelloWorld.Size = new System.Drawing.Size(0, 13);
 			this.lblHelloWorld.TabIndex = 1;
 			// 
-			// button2
+			// ShutdownButton
 			// 
-			this.button2.Location = new System.Drawing.Point(232, 108);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(81, 25);
-			this.button2.TabIndex = 2;
-			this.button2.Text = "Exit";
-			this.button2.UseVisualStyleBackColor = false;
-			this.button2.Click += new System.EventHandler(this.Shutdown_Click);
+			this.ShutdownButton.Location = new System.Drawing.Point(232, 108);
+			this.ShutdownButton.Name = "ShutdownButton";
+			this.ShutdownButton.Size = new System.Drawing.Size(81, 25);
+			this.ShutdownButton.TabIndex = 2;
+			this.ShutdownButton.Text = "Exit";
+			this.ShutdownButton.UseVisualStyleBackColor = false;
+			this.ShutdownButton.Click += new System.EventHandler(this.Shutdown_Click);
 			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(325, 145);
-			this.Controls.Add(this.button2);
+			this.Controls.Add(this.ShutdownButton);
 			this.Controls.Add(this.lblHelloWorld);
 			this.Controls.Add(this.btnClickThis);
 			this.Name = "MainForm";
@@ -83,7 +83,7 @@ namespace DemoProject
 
         private System.Windows.Forms.Button btnClickThis;
         private System.Windows.Forms.Label lblHelloWorld;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button ShutdownButton;
     }
 }
 
