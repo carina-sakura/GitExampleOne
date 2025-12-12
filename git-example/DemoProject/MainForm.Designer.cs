@@ -29,41 +29,53 @@ namespace DemoProject
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnClickThis = new System.Windows.Forms.Button();
-            this.lblHelloWorld = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-            // 
-            // btnClickThis
-            // 
-            this.btnClickThis.BackColor = System.Drawing.Color.Green;
-            this.btnClickThis.Location = new System.Drawing.Point(12, 60);
-            this.btnClickThis.Name = "btnClickThis";
-            this.btnClickThis.Size = new System.Drawing.Size(81, 25);
-            this.btnClickThis.TabIndex = 0;
-            this.btnClickThis.Text = "Click this";
-            this.btnClickThis.UseVisualStyleBackColor = false;
-            this.btnClickThis.Click += new System.EventHandler(this.btnClickThis_Click);
-            // 
-            // lblHelloWorld
-            // 
-            this.lblHelloWorld.AutoSize = true;
-            this.lblHelloWorld.Location = new System.Drawing.Point(109, 66);
-            this.lblHelloWorld.Name = "lblHelloWorld";
-            this.lblHelloWorld.Size = new System.Drawing.Size(0, 13);
-            this.lblHelloWorld.TabIndex = 1;
-            // 
-            // MainForm
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(325, 145);
-            this.Controls.Add(this.lblHelloWorld);
-            this.Controls.Add(this.btnClickThis);
-            this.Name = "MainForm";
-            this.Text = "Demo Project";
-            this.Load += new System.EventHandler(this.MainForm_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
+			this.btnClickThis = new System.Windows.Forms.Button();
+			this.lblHelloWorld = new System.Windows.Forms.Label();
+			this.button2 = new System.Windows.Forms.Button();
+			this.SuspendLayout();
+			// 
+			// btnClickThis
+			// 
+			this.btnClickThis.BackColor = System.Drawing.Color.Green;
+			this.btnClickThis.Location = new System.Drawing.Point(12, 60);
+			this.btnClickThis.Name = "btnClickThis";
+			this.btnClickThis.Size = new System.Drawing.Size(81, 25);
+			this.btnClickThis.TabIndex = 0;
+			this.btnClickThis.Text = "Click this";
+			this.btnClickThis.UseVisualStyleBackColor = false;
+			this.btnClickThis.Click += new System.EventHandler(this.btnClickThis_Click);
+			// 
+			// lblHelloWorld
+			// 
+			this.lblHelloWorld.AutoSize = true;
+			this.lblHelloWorld.Location = new System.Drawing.Point(109, 66);
+			this.lblHelloWorld.Name = "lblHelloWorld";
+			this.lblHelloWorld.Size = new System.Drawing.Size(0, 13);
+			this.lblHelloWorld.TabIndex = 1;
+			// 
+			// button2
+			// 
+			this.button2.Location = new System.Drawing.Point(232, 108);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(81, 25);
+			this.button2.TabIndex = 2;
+			this.button2.Text = "Exit";
+			this.button2.UseVisualStyleBackColor = false;
+			this.button2.Click += new System.EventHandler(this.Shutdown_Click);
+			// 
+			// MainForm
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(325, 145);
+			this.Controls.Add(this.button2);
+			this.Controls.Add(this.lblHelloWorld);
+			this.Controls.Add(this.btnClickThis);
+			this.Name = "MainForm";
+			this.Text = "Demo Project";
+			this.Load += new System.EventHandler(this.MainForm_Load);
+			this.ResumeLayout(false);
+			this.PerformLayout();
 
         }
 
@@ -71,6 +83,7 @@ namespace DemoProject
 
         private System.Windows.Forms.Button btnClickThis;
         private System.Windows.Forms.Label lblHelloWorld;
+        private System.Windows.Forms.Button button2;
     }
 }
 
